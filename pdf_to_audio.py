@@ -1,13 +1,10 @@
 # Importing the required libraries 
 import PyPDF2
-import gtts
-from playsound import playsound
 import fitz
 import json
 import re
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
-from gtts import gTTS
 import copy 
 import os
 from google.cloud import texttospeech
@@ -98,7 +95,7 @@ class pdf_to_audio_converter:
             client = texttospeech.TextToSpeechClient()
 
 
-            for part in tqdm(range(1, countOfPart+1)):
+            for part in range(1, countOfPart+1):
                 # Set the text input to be synthesized
                 synthesis_input = texttospeech.SynthesisInput(text= globals()['part%s' % part])
 
@@ -173,6 +170,7 @@ if __name__ == "__main__":
         print("")
         print("Your Audio book is ready!!")
         print("Enjoy Listening")
+        print("/n")
 
     except Exception as e:
         print(e)
