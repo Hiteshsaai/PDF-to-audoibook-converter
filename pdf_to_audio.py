@@ -1,5 +1,4 @@
 # Importing the required libraries 
-import PyPDF2
 import fitz
 import json
 import re
@@ -95,7 +94,7 @@ class pdf_to_audio_converter:
             client = texttospeech.TextToSpeechClient()
 
 
-            for part in range(1, countOfPart+1):
+            for part in tqdm(range(1, countOfPart+1)):
                 # Set the text input to be synthesized
                 synthesis_input = texttospeech.SynthesisInput(text= globals()['part%s' % part])
 
