@@ -26,4 +26,11 @@ We are first extracting the text from the pdf document and later we are cleaning
 - Then you will get your audio book
 - ENJOY !!
 
+# Note
+
+If you find difficult to use google computer vision or you want to make it simple you can use **gTTS** library to convert the text(string) to audio.
+To install, ```pip install gTTS``` 
+*Disclaimer*: Convertion of text to string will take more time with this tool.
+
+
 ### ENJOY LISTENING TO BOOKS!! 
