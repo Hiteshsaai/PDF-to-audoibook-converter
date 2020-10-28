@@ -29,7 +29,7 @@ We are first extracting the text from the pdf document and later we are cleaning
 # Note
 
 If you find difficult to use google computer vision or you want to make it simple you can use **gTTS** library to convert the text(string) to audio. </br></br>
-To install the library using the follwing command, </br> 
+To install the library use the follwing command, </br> 
 - ```pip install gTTS``` 
 - Refer this [gTTS](https://gtts.readthedocs.io/en/latest/) documentation for implementing string to speech conversion. 
 
