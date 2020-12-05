@@ -8,7 +8,7 @@ Created a PDF to audio book converter. The purpose of this project is to make ti
 
 # How it works
 
-We are first extracting the text from the pdf document and later we are cleaning the text to align it in proper formate. This converted text in string formate is being passed on to **Google Computer Vision** API to convert it to speech in real time.
+We are extracting the text from the pdf document and later we are cleaning the text to align it in proper formate. This converted text in string formate is being passed on to **Google Computer Vision** API to convert it to speech in real time.
 
 # How to use?
 
