@@ -34,7 +34,7 @@ To install the library use the follwing command, </br>
 - Refer this [gTTS](https://gtts.readthedocs.io/en/latest/) documentation for implementing string to speech conversion. 
 
 </br> 
-<ins>*Disclaimer*:</ins> Convertion of text to string will take more time with this tool.
+<ins>Disclaimer:</ins> Convertion of text to string will take more time with this tool.
 
 
 ### ENJOY LISTENING TO BOOKS!! 
