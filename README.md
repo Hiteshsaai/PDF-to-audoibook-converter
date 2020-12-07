@@ -22,9 +22,9 @@ We are extracting the text from the pdf document and later we are cleaning the t
   - Open you **pdf_to_audio.py** file and in **line no. 68** replace and add your Private API key location (which is your local directory).
 - Go to the **PDF-to-audoibook-converter** repository in termial and do, </br>
   ```pip install -r requirements.txt```
-- Then run ```python pdf_to_audio.py``` and a gui will open to select the PDF file which you wanted to be converted to audio.
-- Then you will get your audio book
-- ENJOY !!
+- Run ```python pdf_to_audio.py``` and a gui will open to select the PDF file which you wanted to be converted to audio.
+- Select the pdf file which you want to convert to audio.
+- Then you will get your pdf file converted to a audio book.
 
 # Note
 
